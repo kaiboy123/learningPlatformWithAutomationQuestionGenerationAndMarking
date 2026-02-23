@@ -1,0 +1,295 @@
+Received Data: Validation Failed: Missing fields
+Received Data: Validation Failed: Missing fields
+Received Data: Validation Failed: Missing fields
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => What wraps all other tags in an HTML document?
+    [questionContent] => 
+    [questionOptions] => {
+  "A": "<body> tag",
+  "B": "<head> tag",
+  "C": "<html> tag",
+  "D": "<!DOCTYPE html> declaration"
+}
+    [questionAnswer] => C
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => What is the main focus of Artificial Intelligence (AI)?
+    [questionContent] => 
+    [questionOptions] => {
+  "A": "Creating systems capable of performing tasks requiring human intelligence",
+  "B": "Developing hardware components for computers",
+  "C": "Designing graphic interfaces for software applications",
+  "D": "Improving internet security protocols"
+}
+    [questionAnswer] => A
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => What is the main focus of Artificial Intelligence (AI)?
+    [questionContent] => AI is a field of computer science that aims to develop systems capable of mimicking human intelligence.
+    [questionOptions] => 
+    [questionAnswer] => Creating systems capable of performing tasks requiring human intelligence
+    [questionType] => open-ended
+)
+Insert Successful
+Received Data: Validation Failed: Missing fields
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => How does HTML structure content for web browsers to display?
+    [questionContent] => HTML is the backbone of any website and uses elements called tags to structure content for web browsers.
+    [questionOptions] => 
+    [questionAnswer] => HTML structures content for web browsers to display by using elements called tags.
+    [questionType] => open-ended
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => What does HTML stand for?
+    [questionContent] => {
+  "A": "HyperText Markup Language",
+  "B": "Highly Technical Markup Linguistics",
+  "C": "Home Tool Management Language",
+  "D": "Handy Text Manipulation Logic"
+}
+    [questionOptions] => {
+  "A": "HyperText Markup Language",
+  "B": "Highly Technical Markup Linguistics",
+  "C": "Home Tool Management Language",
+  "D": "Handy Text Manipulation Logic"
+}
+    [questionAnswer] => A
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => How does HTML structure content for web browsers?
+    [questionContent] => HTML serves as the backbone of any website by providing the structure for content display.
+    [questionOptions] => 
+    [questionAnswer] => HTML structures content for web browsers through the use of elements called tags.
+    [questionType] => open-ended
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => Which tag wraps all other tags in an HTML document?
+    [questionContent] => {
+  "A": "<header>",
+  "B": "<body>",
+  "C": "<html>",
+  "D": "<head>"
+}
+    [questionOptions] => {
+  "A": "<header>",
+  "B": "<body>",
+  "C": "<html>",
+  "D": "<head>"
+}
+    [questionAnswer] => C
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => Which HTML tag wraps all other tags in an HTML document?
+    [questionContent] => {
+  "A": "<head>",
+  "B": "<title>",
+  "C": "<html>",
+  "D": "<body>"
+}
+    [questionOptions] => {
+  "A": "<head>",
+  "B": "<title>",
+  "C": "<html>",
+  "D": "<body>"
+}
+    [questionAnswer] => C
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => How does HTML structure content for web browsers to display?
+    [questionContent] => HTML is the backbone of any website and uses elements called tags.
+    [questionOptions] => 
+    [questionAnswer] => HTML structures content for web browsers to display using elements called tags.
+    [questionType] => open-ended
+)
+Insert Successful
+Received Data: Validation Failed: Missing fields
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => What does HTML stand for?
+    [questionContent] => {
+  "A": "HyperText Markup Language",
+  "B": "Hyperlink Text Model",
+  "C": "High-Technology Markup Language",
+  "D": "Home Text Management"
+}
+    [questionOptions] => {
+  "A": "HyperText Markup Language",
+  "B": "Hyperlink Text Model",
+  "C": "High-Technology Markup Language",
+  "D": "Home Text Management"
+}
+    [questionAnswer] => A
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => What element is used to wrap all other tags in HTML?
+    [questionContent] => {
+  "A": "<!DOCTYPE html>",
+  "B": "<head>",
+  "C": "<html>",
+  "D": "<body>"
+}
+    [questionOptions] => {
+  "A": "<!DOCTYPE html>",
+  "B": "<head>",
+  "C": "<html>",
+  "D": "<body>"
+}
+    [questionAnswer] => C
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A001
+    [questionTitle] => What wraps all other HTML tags in a document?
+    [questionContent] => {
+  "A": "<head>",
+  "B": "<title>",
+  "C": "<html>",
+  "D": "<body>"
+}
+    [questionOptions] => {
+  "A": "<head>",
+  "B": "<title>",
+  "C": "<html>",
+  "D": "<body>"
+}
+    [questionAnswer] => C
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A003
+    [questionTitle] => Which element is used to structure the content for web browsers to display in HTML?
+    [questionContent] => {
+  "A": "<head>",
+  "B": "<title>",
+  "C": "<html>",
+  "D": "<h1>"
+}
+    [questionOptions] => {
+  "A": "<head>",
+  "B": "<title>",
+  "C": "<html>",
+  "D": "<h1>"
+}
+    [questionAnswer] => C
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A201
+    [questionTitle] => What is the main focus of Artificial Intelligence (AI)?
+    [questionContent] => {
+  "A": "Designing websites",
+  "B": "Creating systems capable of performing tasks requiring human intelligence",
+  "C": "Cooking delicious meals",
+  "D": "Building bridges"
+}
+    [questionOptions] => {
+  "A": "Designing websites",
+  "B": "Creating systems capable of performing tasks requiring human intelligence",
+  "C": "Cooking delicious meals",
+  "D": "Building bridges"
+}
+    [questionAnswer] => B
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A201
+    [questionTitle] => How does HTML structure content for web browsers to display?
+    [questionContent] => HTML is the backbone of any website and uses elements called tags to structure content.
+    [questionOptions] => 
+    [questionAnswer] => HTML structures content for web browsers to display using elements called tags.
+    [questionType] => open-ended
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A201
+    [questionTitle] => Which tag wraps all other tags in an HTML document?
+    [questionContent] => {
+  "A": "<body>",
+  "B": "<head>",
+  "C": "<html>",
+  "D": "<title>"
+}
+    [questionOptions] => {
+  "A": "<body>",
+  "B": "<head>",
+  "C": "<html>",
+  "D": "<title>"
+}
+    [questionAnswer] => C
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A202
+    [questionTitle] => What is the main focus of Artificial Intelligence (AI)?
+    [questionContent] => {
+  "A": "Programming languages",
+  "B": "Creating systems capable of human intelligence tasks",
+  "C": "Hardware development",
+  "D": "Graphic design"
+}
+    [questionOptions] => {
+  "A": "Programming languages",
+  "B": "Creating systems capable of human intelligence tasks",
+  "C": "Hardware development",
+  "D": "Graphic design"
+}
+    [questionAnswer] => B
+    [questionType] => multiple-choice
+)
+Insert Successful
+Received Data: Array
+(
+    [assessmentID] => A202
+    [questionTitle] => How does HTML structure content for web browsers to display?
+    [questionContent] => HTML serves as the backbone of any website, using elements called tags to organize content for presentation on web browsers.
+    [questionOptions] => 
+    [questionAnswer] => HTML structures content by using elements called tags to define the layout and formatting of text, images, links, and other web page elements for display on web browsers.
+    [questionType] => open-ended
+)
+Insert Successful

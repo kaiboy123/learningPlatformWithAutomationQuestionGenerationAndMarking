@@ -1,0 +1,247 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    min-height: 100vh;
+    position: fixed;
+}
+
+.side-bar .profile {
+    padding: 20px;
+    text-align: center;
+}
+
+.side-bar .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.side-bar nav a {
+    display: block;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #495057;
+}
+
+.side-bar nav a:hover {
+    background-color: #495057;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    width: calc(100% - 250px);
+    background-color: #f8f9fa;
+}
+
+.main-content h1 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.section {
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select, .form-group button {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.plans-list {
+    margin-top: 2rem;
+}
+
+.plans-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.plans-list th, .plans-list td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.plans-list th {
+    background-color: #f4f4f4;
+}
+
+.plans-list td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.plans-list td a:hover {
+    text-decoration: underline;
+}
+
+.plans-list .actions a {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.plans-list .actions .edit {
+    background-color: #17a2b8;
+}
+
+.plans-list .actions .delete {
+    background-color: #dc3545;
+}
+
+.plans-list .actions .delete:hover {
+    background-color: #c82333;
+}
+.dialog {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.dialog-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+.form-group input, .form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+.section table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 20px;
+ font-family: Arial, sans-serif;
+ background-color: #fff;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ border-radius: 8px;
+ overflow: hidden;
+}
+
+.section th, .section td {
+ padding: 15px;
+ text-align: left;
+ font-size: 1rem;
+ border-bottom: 1px solid #ddd;
+}
+
+.section th {
+ background-color: #343a40;
+ color: #fff;
+ font-weight: bold;
+}
+
+.section tr:hover {
+ background-color: #f1f1f1;
+ cursor: pointer;
+}
+
+.section td {
+ color: #333;
+}
+
+.section a {
+ color: #007bff;
+ text-decoration: none;
+ font-size: 0.9rem;
+ margin-right: 10px;
+}
+
+.section a:hover {
+ text-decoration: underline;
+}
+
+.section button.edit-btn {
+ background-color: #17a2b8;
+ color: #fff;
+ border: none;
+ padding: 8px 16px;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 0.9rem;
+ transition: background-color 0.3s;
+}
+
+.section button.edit-btn:hover {
+ background-color: #138496;
+}
+
+.section a.delete {
+ background-color: #dc3545;
+ color: #fff;
+ border-radius: 4px;
+ padding: 8px 16px;
+ font-size: 0.9rem;
+ text-decoration: none;
+ transition: background-color 0.3s;
+}
+
+.section a.delete:hover {
+ background-color: #c82333;
+}

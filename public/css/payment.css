@@ -1,0 +1,129 @@
+.feedback {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.error {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+}
+.subscription-module {
+     margin-left: 10%px; /* Adjust margin to avoid overlap with sidebar */
+     padding: 2rem;
+     max-width: 1200px;
+     margin-top: 2rem;
+     background-color: #fff;
+     border-radius: 1rem;
+     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .subscription-module h1 {
+     text-align: center;
+     margin-bottom: 2rem;
+     font-size: 2.5rem;
+     color: #333;
+ }
+ .course-name {
+font-size: 1.9rem;
+color: #555;
+margin-bottom: 1rem;
+}
+
+ .plans {
+     display: flex;
+     justify-content: space-between;
+     gap: 2rem;
+     flex-wrap: wrap;
+ }
+
+ .plan {
+     background-color: #f9f9f9;
+     border-radius: 1rem;
+     padding: 2rem;
+     text-align: center;
+     flex: 1;
+     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+     max-width: 30%;
+     min-width: 300px;
+     transition: transform 0.3s, box-shadow 0.3s;
+ }
+
+ .plan:hover {
+     transform: scale(1.05);
+     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+ }
+
+ .plan h2 {
+     font-size: 1.75rem;
+     margin-bottom: 1rem;
+ }
+
+ .plan p {
+     font-size: 1rem;
+     margin-bottom: 1.5rem;
+     color: #666;
+ }
+
+ .plan .price {
+     font-size: 2rem;
+     margin-bottom: 1.5rem;
+     color: #333;
+ }
+
+ .plan .subscribe-btn {
+     display: inline-block;
+     padding: 0.75rem 1.5rem;
+     font-size: 1rem;
+     color: #fff;
+     background-color: #f39c12;
+     text-decoration: none;
+     border-radius: 0.5rem;
+     transition: background-color 0.3s;
+ }
+
+ .plan .subscribe-btn:hover {
+     background-color: #e67e22;
+ }
+
+ /* Payment Form Styles */
+ .payment-form {
+     margin-top: 3rem;
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+ }
+
+ .payment-form input, .payment-form select, .payment-form button {
+     padding: 0.75rem;
+     border: 1px solid #ccc;
+     border-radius: 0.25rem;
+     font-size: 1rem;
+ }
+
+ .payment-form select {
+     cursor: pointer;
+ }
+
+ .payment-form button {
+     background-color: #f39c12;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ .payment-form button:hover {
+     background-color: #e67e22;
+ }
+
+ /* Feedback Styles */
+ .feedback {
+     margin-top: 2rem;
+     text-align: center;
+ }
