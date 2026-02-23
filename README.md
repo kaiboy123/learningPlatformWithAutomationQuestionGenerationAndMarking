@@ -16,6 +16,6 @@ It allows teachers to create, manage, and auto-grade assessments while providing
 | Path | Description |
 |------|-------------|
 | `app/admin/` | Contains **admin-accessible pages for teachers**: dashboards, manage everything inside the platfrom, and allow for view report |
-| `app/ai/` | Contains AI scripts for auto-generating questions. |
+| `app/ai/` | Contains AI scripts for auto-generating questions and auto-marking. |
 | `app/controller/` | Contains **backend logic**: handles saving, processing, and updating questions and assessments. This is where server-side operations happen. |
 | `public/` | Contains **user-accessible pages for learners**: dashboards, assessment views, and other frontend components that students and teachers interact with directly. |
